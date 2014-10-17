@@ -1,0 +1,1831 @@
+<as:CAM
+ xmlns:as="http://www.oasis-open.org/committees/cam"
+ xmlns:camed="http://jcam.org.uk/editor"
+ xmlns:oagis="http://www.openapplications.org/oagis/9"
+ xmlns:star="http://www.starstandard.org/STAR/5"
+ xmlns:xml="http://www.w3.org/XML/1998/namespace"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema" CAMlevel="1" version="1.0">
+  <as:Header>
+    <as:Description>Generated for ProcessPartsInventory then edited by Tony Slosar</as:Description>
+    <as:Owner>Motive Retail</as:Owner>
+    <as:Version>0.1</as:Version>
+    <as:DateTime>2014-10-10T14:15:44</as:DateTime>
+  </as:Header>
+  <as:AssemblyStructure>
+    <as:Structure taxonomy="XML" ID="ProcessPartsInventory" reference="">
+      <star:ProcessPartsInventory releaseID="%string%" versionID="%string%" systemEnvironmentCode="%string%" languageCode="%string%">
+        <star:ApplicationArea>
+          <star:Sender>
+            <star:LogicalID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:LogicalID>
+            <star:ComponentID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ComponentID>
+            <star:TaskID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:TaskID>
+            <star:ReferenceID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ReferenceID>
+            <star:ConfirmationCode>%string%</star:ConfirmationCode>
+            <star:AuthorizationID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:AuthorizationID>
+            <star:CreatorNameCode languageID="%string%">%string%</star:CreatorNameCode>
+            <star:SenderNameCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:SenderNameCode>
+            <star:URI>%string%</star:URI>
+            <star:DealerNumberID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:DealerNumberID>
+            <star:StoreNumber languageID="%string%">%string%</star:StoreNumber>
+            <star:AreaNumber languageID="%string%">%string%</star:AreaNumber>
+            <star:DealerCountryCode>%string%</star:DealerCountryCode>
+            <star:LanguageCode>%string%</star:LanguageCode>
+            <star:DeliverPendingMailIndicator>%string%</star:DeliverPendingMailIndicator>
+            <star:Password languageID="%string%">%string%</star:Password>
+            <star:SystemVersion>%string%</star:SystemVersion>
+            <star:PartyID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:PartyID>
+            <star:LocationID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:LocationID>
+            <star:ServiceID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ServiceID>
+            <star:NounCountNumeric>%string%</star:NounCountNumeric>
+          </star:Sender>
+          <star:CreationDateTime>%string%</star:CreationDateTime>
+          <oagis:Signature qualifyingAgencyId="%string%">%string%</oagis:Signature>
+          <star:BODID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:BODID>
+          <star:Destination>
+            <star:DestinationNameCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:DestinationNameCode>
+            <star:DestinationURI>%string%</star:DestinationURI>
+            <star:DestinationSoftwareCode languageID="%string%">%string%</star:DestinationSoftwareCode>
+            <star:DestinationSoftware languageID="%string%">%string%</star:DestinationSoftware>
+            <star:DealerNumberID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:DealerNumberID>
+            <star:StoreNumber languageID="%string%">%string%</star:StoreNumber>
+            <star:AreaNumber languageID="%string%">%string%</star:AreaNumber>
+            <star:DealerTargetCountry>%string%</star:DealerTargetCountry>
+            <star:PartyReceiverID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:PartyReceiverID>
+            <star:LocationReceiverID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:LocationReceiverID>
+            <star:ServiceMessageID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ServiceMessageID>
+          </star:Destination>
+        </star:ApplicationArea>
+        <star:ProcessPartsInventoryDataArea>
+          <star:Process acknowledgeCode="%string%">
+            <oagis:ActionCriteria>
+              <oagis:ActionExpression actionCode="%string%" expressionLanguage="%string%">%string%</oagis:ActionExpression>
+              <oagis:ChangeStatus>
+                <oagis:Code>%string%</oagis:Code>
+                <star:Description languageID="%string%">%string%</star:Description>
+                <oagis:EffectiveDateTime>%string%</oagis:EffectiveDateTime>
+                <oagis:ReasonCode>%string%</oagis:ReasonCode>
+                <oagis:Reason>%string%</oagis:Reason>
+                <oagis:StateChange>
+                  <oagis:FromStateCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%%string%</oagis:FromStateCode>
+                  <oagis:ToStateCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%%string%</oagis:ToStateCode>
+                  <oagis:ChangeDateTime>%string%</oagis:ChangeDateTime>
+                  <star:Description languageID="%string%">%string%</star:Description>
+                  <star:Note languageID="%string%">%string%</star:Note>
+                </oagis:StateChange>
+              </oagis:ChangeStatus>
+            </oagis:ActionCriteria>
+          </star:Process>
+          <star:PartsInventory>
+            <star:PartsInventoryHeader>
+              <star:DocumentDateTime>%string%</star:DocumentDateTime>
+              <star:SecondaryPassword languageID="%string%">%string%</star:SecondaryPassword>
+              <star:SecondaryDealerNumberID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:SecondaryDealerNumberID>
+              <star:DocumentIdentificationGroup>
+                <star:DocumentIdentification>
+                  <star:DocumentID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:DocumentID>
+                  <star:AgencyRoleCode>%string%</star:AgencyRoleCode>
+                </star:DocumentIdentification>
+                <star:AlternateDocumentIdentification>
+                  <star:DocumentID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:DocumentID>
+                  <star:AgencyRoleCode>%string%</star:AgencyRoleCode>
+                </star:AlternateDocumentIdentification>
+              </star:DocumentIdentificationGroup>
+              <star:PartTypeCode>%string%</star:PartTypeCode>
+              <star:FileSequenceNumberString>%string%</star:FileSequenceNumberString>
+              <star:InventoryTypeCode>%string%</star:InventoryTypeCode>
+              <star:LastSentInventoryBODID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:LastSentInventoryBODID>
+              <star:Status>
+                <star:StatusTypeCode>%string%</star:StatusTypeCode>
+                <star:StatusCode>%string%</star:StatusCode>
+                <star:StatusText languageID="%string%">%string%</star:StatusText>
+              </star:Status>
+              <star:AcknowledgementStatus>
+                <star:StatusTypeCode>%string%</star:StatusTypeCode>
+                <star:StatusCode>%string%</star:StatusCode>
+                <star:StatusText languageID="%string%">%string%</star:StatusText>
+                <star:ItemQuantity unitCode="%string%">%string%</star:ItemQuantity>
+                <star:ShipWarehouseNumeric>%string%</star:ShipWarehouseNumeric>
+                <star:ShipmentNumberString>%string%</star:ShipmentNumberString>
+                <star:ProcessedItemID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ProcessedItemID>
+              </star:AcknowledgementStatus>
+              <star:DatasourceURICode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:DatasourceURICode>
+              <star:FreeFormTextGroup>
+                <star:Note languageID="%string%">%string%</star:Note>
+                <star:Description languageID="%string%">%string%</star:Description>
+              </star:FreeFormTextGroup>
+              <star:ReorderTransmitTime>%string%</star:ReorderTransmitTime>
+              <star:Period>%string%</star:Period>
+            </star:PartsInventoryHeader>
+            <star:PartsInventoryLine>
+              <star:ItemID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ItemID>
+              <star:QuantityOnHand unitCode="%string%">%string%</star:QuantityOnHand>
+              <star:QuantitySold unitCode="%string%">%string%</star:QuantitySold>
+              <star:QuantityOfLostSale unitCode="%string%">%string%</star:QuantityOfLostSale>
+              <star:PartClassCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:PartClassCode>
+              <star:QuantityOnOrder unitCode="%string%">%string%</star:QuantityOnOrder>
+              <star:QuantityReOrderPoint unitCode="%string%">%string%</star:QuantityReOrderPoint>
+              <star:QuantityTwelveMonthSales unitCode="%string%">%string%</star:QuantityTwelveMonthSales>
+              <star:BinLocation languageID="%string%">%string%</star:BinLocation>
+              <star:QuantityTwelveMonthLostSales unitCode="%string%">%string%</star:QuantityTwelveMonthLostSales>
+              <star:BackOrderQuantity unitCode="%string%">%string%</star:BackOrderQuantity>
+              <star:QuantityOfReturn unitCode="%string%">%string%</star:QuantityOfReturn>
+              <star:QuantityReserved unitCode="%string%">%string%</star:QuantityReserved>
+              <star:UnitPriceAmount currencyID="%string%">%string%</star:UnitPriceAmount>
+              <star:CorePriceAmount currencyID="%string%">%string%</star:CorePriceAmount>
+              <star:QuantityDealerPartStocking unitCode="%string%">%string%</star:QuantityDealerPartStocking>
+              <star:MonthsNoSaleNumeric>%string%</star:MonthsNoSaleNumeric>
+              <star:QuantityAvailable unitCode="%string%">%string%</star:QuantityAvailable>
+              <star:ReplenishmentCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ReplenishmentCode>
+              <star:LastSoldDate>%string%</star:LastSoldDate>
+              <star:QuantityUserMin unitCode="%string%">%string%</star:QuantityUserMin>
+              <star:QuantityUserMax unitCode="%string%">%string%</star:QuantityUserMax>
+              <star:PartSourceCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:PartSourceCode>
+              <star:StockingStatusCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:StockingStatusCode>
+              <star:SystemSetupDate>%string%</star:SystemSetupDate>
+              <star:QuantityBestStockingLevel unitCode="%string%">%string%</star:QuantityBestStockingLevel>
+              <star:AverageWeeklyUsageQuantity unitCode="%string%">%string%</star:AverageWeeklyUsageQuantity>
+              <star:Status>
+                <star:StatusTypeCode>%string%</star:StatusTypeCode>
+                <star:StatusCode>%string%</star:StatusCode>
+                <star:StatusText languageID="%string%">%string%</star:StatusText>
+              </star:Status>
+              <star:PartsProductItem>
+                <star:ItemID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ItemID>
+                <star:PartName languageID="%string%">%string%</star:PartName>
+                <star:PartItemDescription languageID="%string%">%string%</star:PartItemDescription>
+                <star:PartTypeCode>%string%</star:PartTypeCode>
+                <star:PartClassCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:PartClassCode>
+                <star:PartManufacturer languageID="%string%">%string%</star:PartManufacturer>
+                <star:ClassCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ClassCode>
+                <star:HazmatIndicator>%string%</star:HazmatIndicator>
+                <star:HazardousMaterialDescription languageID="%string%">%string%</star:HazardousMaterialDescription>
+                <star:ItemIDCategoryTypeCode>%string%</star:ItemIDCategoryTypeCode>
+                <star:AlternateItemIDs>
+                  <star:ItemID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ItemID>
+                  <star:ItemIDCategoryTypeCode>%string%</star:ItemIDCategoryTypeCode>
+                </star:AlternateItemIDs>
+                <star:ItemIdentificationGroup>
+                  <star:ItemIdentification>
+                    <star:ItemID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ItemID>
+                    <star:AgencyRoleCode>%string%</star:AgencyRoleCode>
+                  </star:ItemIdentification>
+                </star:ItemIdentificationGroup>
+                <star:SerialNumberID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:SerialNumberID>
+                <star:SerialNumberIDRequiredIndicator>%string%</star:SerialNumberIDRequiredIndicator>
+                <star:PackageQuantity unitCode="%string%">%string%</star:PackageQuantity>
+                <star:AcquisitionMethodTypeCode>%string%</star:AcquisitionMethodTypeCode>
+                <star:VendorCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:VendorCode>
+                <star:ProgramCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ProgramCode>
+                <star:PartConditionCode>%string%</star:PartConditionCode>
+                <star:UOMCode>%string%</star:UOMCode>
+                <star:VMRSCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:VMRSCode>
+                <star:StockingLevelIndicatorCode>%string%</star:StockingLevelIndicatorCode>
+                <star:FreeFormTextGroup>
+                  <star:Note languageID="%string%">%string%</star:Note>
+                  <star:Description languageID="%string%">%string%</star:Description>
+                </star:FreeFormTextGroup>
+                <star:EligibleForReturnIndicator>%string%</star:EligibleForReturnIndicator>
+                <star:PartSupplyStatusCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:PartSupplyStatusCode>
+                <star:CorePartDescription languageID="%string%">%string%</star:CorePartDescription>
+                <star:RemanufacturedPartDescription languageID="%string%">%string%</star:RemanufacturedPartDescription>
+                <star:PatentPendingDescription languageID="%string%">%string%</star:PatentPendingDescription>
+                <star:ServiceFileDescription languageID="%string%">%string%</star:ServiceFileDescription>
+                <star:PartDealerSalesRestriction>%string%</star:PartDealerSalesRestriction>
+                <star:PartOrderRestriction>%string%</star:PartOrderRestriction>
+                <star:PartSourceCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:PartSourceCode>
+                <star:PartSourceDescription languageID="%string%">%string%</star:PartSourceDescription>
+              </star:PartsProductItem>
+              <star:PartsForecasting>
+                <star:JobQuantity unitCode="%string%">%string%</star:JobQuantity>
+                <star:FullBinQuantity unitCode="%string%">%string%</star:FullBinQuantity>
+                <star:PeriodsInYearNumeric>%string%</star:PeriodsInYearNumeric>
+                <star:QuantitySoldHistory>
+                  <star:PeriodID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:PeriodID>
+                  <star:QuantitySold unitCode="%string%">%string%</star:QuantitySold>
+                  <star:SoldDate>%string%</star:SoldDate>
+                  <star:PartSaleType>%string%</star:PartSaleType>
+                </star:QuantitySoldHistory>
+                <star:ExpectedInventory>
+                  <star:OrderTypeCode>%string%</star:OrderTypeCode>
+                  <star:QuantityOnOrder unitCode="%string%">%string%</star:QuantityOnOrder>
+                  <star:ETADate>%string%</star:ETADate>
+                  <star:OrderDate>%string%</star:OrderDate>
+                </star:ExpectedInventory>
+              </star:PartsForecasting>
+              <star:DealerParty>
+                <star:PartyID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:PartyID>
+                <star:LocationID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:LocationID>
+                <star:DealerManagementSystemID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:DealerManagementSystemID>
+                <star:AuthorizationID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:AuthorizationID>
+                <star:RelationshipTypeCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:RelationshipTypeCode>
+                <star:SpecialRemarksDescription languageID="%string%">%string%</star:SpecialRemarksDescription>
+                <star:AlternatePartyDocument>
+                  <star:DocumentID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:DocumentID>
+                  <star:DocumentType>%string%</star:DocumentType>
+                  <star:IssuingName languageID="%string%">%string%</star:IssuingName>
+                  <star:EffectivePeriod>
+                    <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                    <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                    <star:StartDateTime>%string%</star:StartDateTime>
+                    <star:EndDateTime>%string%</star:EndDateTime>
+                    <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                    <star:OpenIndicator>%string%</star:OpenIndicator>
+                    <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                  </star:EffectivePeriod>
+                </star:AlternatePartyDocument>
+                <star:SpecifiedOrganization>
+                  <star:BusinessTypeCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:BusinessTypeCode>
+                  <star:CompanyName languageID="%string%">%string%</star:CompanyName>
+                  <star:OrganizationID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:OrganizationID>
+                  <star:DistrictID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:DistrictID>
+                  <star:BranchCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:BranchCode>
+                  <star:CompanyCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CompanyCode>
+                  <star:DivisionCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:DivisionCode>
+                  <star:ServiceCenterCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ServiceCenterCode>
+                  <star:HoldingCompanyName languageID="%string%">%string%</star:HoldingCompanyName>
+                  <star:PrimaryContact>
+                    <star:ID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ID>
+                    <star:JobTitle languageID="%string%">%string%</star:JobTitle>
+                    <star:Responsibility languageID="%string%">%string%</star:Responsibility>
+                    <star:DepartmentName languageID="%string%">%string%</star:DepartmentName>
+                    <star:TypeCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:TypeCode>
+                    <star:PersonName languageID="%string%">%string%</star:PersonName>
+                    <star:SpecifiedPerson>
+                      <star:ID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ID>
+                      <star:GivenName languageID="%string%">%string%</star:GivenName>
+                      <star:Alias languageID="%string%">%string%</star:Alias>
+                      <star:MiddleName languageID="%string%">%string%</star:MiddleName>
+                      <star:FamilyName languageID="%string%">%string%</star:FamilyName>
+                      <star:Title languageID="%string%">%string%</star:Title>
+                      <star:Salutation languageID="%string%">%string%</star:Salutation>
+                      <star:NameSuffix languageID="%string%">%string%</star:NameSuffix>
+                      <star:MaritalStatusCode>%string%</star:MaritalStatusCode>
+                      <star:GenderCode>%string%</star:GenderCode>
+                      <star:BirthDate>%string%</star:BirthDate>
+                      <star:AgeMeasure unitCode="%string%">%string%</star:AgeMeasure>
+                      <star:MaidenName languageID="%string%">%string%</star:MaidenName>
+                      <star:PreferredName languageID="%string%">%string%</star:PreferredName>
+                      <star:ResidenceAddress>
+                        <star:AddressID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:AddressID>
+                        <star:AddressType listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AddressType>
+                        <star:AttentionOf languageID="%string%">%string%</star:AttentionOf>
+                        <star:CareOf languageID="%string%">%string%</star:CareOf>
+                        <star:LineOne languageID="%string%">%string%</star:LineOne>
+                        <star:LineTwo languageID="%string%">%string%</star:LineTwo>
+                        <star:LineThree languageID="%string%">%string%</star:LineThree>
+                        <star:LineFour languageID="%string%">%string%</star:LineFour>
+                        <star:LineFive languageID="%string%">%string%</star:LineFive>
+                        <star:CitySub-DivisionName languageID="%string%">%string%</star:CitySub-DivisionName>
+                        <star:CityName languageID="%string%">%string%</star:CityName>
+                        <star:CountryID>%string%</star:CountryID>
+                        <star:Postcode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:Postcode>
+                        <star:StateOrProvinceCountrySub-DivisionID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:StateOrProvinceCountrySub-DivisionID>
+                        <star:CountyCountrySub-Division languageID="%string%">%string%</star:CountyCountrySub-Division>
+                        <star:AddressUpdateDateTime>%string%</star:AddressUpdateDateTime>
+                        <star:Privacy>
+                          <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                          <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                          <star:PrivacyPeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:PrivacyPeriod>
+                        </star:Privacy>
+                      </star:ResidenceAddress>
+                      <star:TelephoneCommunication>
+                        <star:URIID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:URIID>
+                        <star:ChannelCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ChannelCode>
+                        <star:LocalNumber languageID="%string%">%string%</star:LocalNumber>
+                        <star:CompleteNumber languageID="%string%">%string%</star:CompleteNumber>
+                        <star:CountryNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CountryNumberCode>
+                        <star:ExtensionNumber languageID="%string%">%string%</star:ExtensionNumber>
+                        <star:AreaNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AreaNumberCode>
+                        <star:Access languageID="%string%">%string%</star:Access>
+                        <star:UseCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:UseCode>
+                        <star:ServiceProviderName languageID="%string%">%string%</star:ServiceProviderName>
+                        <star:HTMLPreferredIndicator>%string%</star:HTMLPreferredIndicator>
+                        <star:UsagePreference>
+                          <star:PriorityRankingNumeric>%string%</star:PriorityRankingNumeric>
+                          <star:PreferredIndicator>%string%</star:PreferredIndicator>
+                          <star:UnavailablePeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:UnavailablePeriod>
+                          <star:AvailablePeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:AvailablePeriod>
+                        </star:UsagePreference>
+                        <star:Privacy>
+                          <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                          <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                          <star:PrivacyPeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:PrivacyPeriod>
+                        </star:Privacy>
+                      </star:TelephoneCommunication>
+                      <star:FaxCommunication>
+                        <star:URIID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:URIID>
+                        <star:ChannelCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ChannelCode>
+                        <star:LocalNumber languageID="%string%">%string%</star:LocalNumber>
+                        <star:CompleteNumber languageID="%string%">%string%</star:CompleteNumber>
+                        <star:CountryNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CountryNumberCode>
+                        <star:ExtensionNumber languageID="%string%">%string%</star:ExtensionNumber>
+                        <star:AreaNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AreaNumberCode>
+                        <star:Access languageID="%string%">%string%</star:Access>
+                        <star:UseCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:UseCode>
+                        <star:ServiceProviderName languageID="%string%">%string%</star:ServiceProviderName>
+                        <star:HTMLPreferredIndicator>%string%</star:HTMLPreferredIndicator>
+                        <star:UsagePreference>
+                          <star:PriorityRankingNumeric>%string%</star:PriorityRankingNumeric>
+                          <star:PreferredIndicator>%string%</star:PreferredIndicator>
+                          <star:UnavailablePeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:UnavailablePeriod>
+                          <star:AvailablePeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:AvailablePeriod>
+                        </star:UsagePreference>
+                        <star:Privacy>
+                          <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                          <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                          <star:PrivacyPeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:PrivacyPeriod>
+                        </star:Privacy>
+                      </star:FaxCommunication>
+                      <star:URICommunication>
+                        <star:URIID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:URIID>
+                        <star:ChannelCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ChannelCode>
+                        <star:LocalNumber languageID="%string%">%string%</star:LocalNumber>
+                        <star:CompleteNumber languageID="%string%">%string%</star:CompleteNumber>
+                        <star:CountryNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CountryNumberCode>
+                        <star:ExtensionNumber languageID="%string%">%string%</star:ExtensionNumber>
+                        <star:AreaNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AreaNumberCode>
+                        <star:Access languageID="%string%">%string%</star:Access>
+                        <star:UseCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:UseCode>
+                        <star:ServiceProviderName languageID="%string%">%string%</star:ServiceProviderName>
+                        <star:HTMLPreferredIndicator>%string%</star:HTMLPreferredIndicator>
+                        <star:UsagePreference>
+                          <star:PriorityRankingNumeric>%string%</star:PriorityRankingNumeric>
+                          <star:PreferredIndicator>%string%</star:PreferredIndicator>
+                          <star:UnavailablePeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:UnavailablePeriod>
+                          <star:AvailablePeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:AvailablePeriod>
+                        </star:UsagePreference>
+                        <star:Privacy>
+                          <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                          <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                          <star:PrivacyPeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:PrivacyPeriod>
+                        </star:Privacy>
+                      </star:URICommunication>
+                      <star:NationalityCountryID>%string%</star:NationalityCountryID>
+                      <star:ContactMethodTypeCode>%string%</star:ContactMethodTypeCode>
+                      <star:LanguageCode>%string%</star:LanguageCode>
+                      <star:PostalAddress>
+                        <star:AddressID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:AddressID>
+                        <star:AddressType listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AddressType>
+                        <star:AttentionOf languageID="%string%">%string%</star:AttentionOf>
+                        <star:CareOf languageID="%string%">%string%</star:CareOf>
+                        <star:LineOne languageID="%string%">%string%</star:LineOne>
+                        <star:LineTwo languageID="%string%">%string%</star:LineTwo>
+                        <star:LineThree languageID="%string%">%string%</star:LineThree>
+                        <star:LineFour languageID="%string%">%string%</star:LineFour>
+                        <star:LineFive languageID="%string%">%string%</star:LineFive>
+                        <star:CitySub-DivisionName languageID="%string%">%string%</star:CitySub-DivisionName>
+                        <star:CityName languageID="%string%">%string%</star:CityName>
+                        <star:CountryID>%string%</star:CountryID>
+                        <star:Postcode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:Postcode>
+                        <star:StateOrProvinceCountrySub-DivisionID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:StateOrProvinceCountrySub-DivisionID>
+                        <star:CountyCountrySub-Division languageID="%string%">%string%</star:CountyCountrySub-Division>
+                        <star:AddressUpdateDateTime>%string%</star:AddressUpdateDateTime>
+                        <star:Privacy>
+                          <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                          <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                          <star:PrivacyPeriod>
+                            <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                            <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                            <star:StartDateTime>%string%</star:StartDateTime>
+                            <star:EndDateTime>%string%</star:EndDateTime>
+                            <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                            <star:OpenIndicator>%string%</star:OpenIndicator>
+                            <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                          </star:PrivacyPeriod>
+                        </star:Privacy>
+                      </star:PostalAddress>
+                      <star:OriginalContactMethodTypeCode>%string%</star:OriginalContactMethodTypeCode>
+                      <star:SpecifiedOccupation>
+                        <star:TypeCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:TypeCode>
+                        <star:Title languageID="%string%">%string%</star:Title>
+                        <star:Description languageID="%string%">%string%</star:Description>
+                        <star:ClassCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ClassCode>
+                        <star:RankingCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:RankingCode>
+                        <star:FullTimeIndicator>%string%</star:FullTimeIndicator>
+                        <star:PeriodHeld>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:PeriodHeld>
+                      </star:SpecifiedOccupation>
+                      <star:Trait>
+                        <star:TraitText languageID="%string%">%string%</star:TraitText>
+                        <star:TraitGroupCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:TraitGroupCode>
+                        <star:TraitTypeCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:TraitTypeCode>
+                      </star:Trait>
+                      <star:CustomerStatusCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CustomerStatusCode>
+                      <star:DateOfBirthToleranceNumeric>%string%</star:DateOfBirthToleranceNumeric>
+                    </star:SpecifiedPerson>
+                    <star:TelephoneCommunication>
+                      <star:URIID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:URIID>
+                      <star:ChannelCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ChannelCode>
+                      <star:LocalNumber languageID="%string%">%string%</star:LocalNumber>
+                      <star:CompleteNumber languageID="%string%">%string%</star:CompleteNumber>
+                      <star:CountryNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CountryNumberCode>
+                      <star:ExtensionNumber languageID="%string%">%string%</star:ExtensionNumber>
+                      <star:AreaNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AreaNumberCode>
+                      <star:Access languageID="%string%">%string%</star:Access>
+                      <star:UseCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:UseCode>
+                      <star:ServiceProviderName languageID="%string%">%string%</star:ServiceProviderName>
+                      <star:HTMLPreferredIndicator>%string%</star:HTMLPreferredIndicator>
+                      <star:UsagePreference>
+                        <star:PriorityRankingNumeric>%string%</star:PriorityRankingNumeric>
+                        <star:PreferredIndicator>%string%</star:PreferredIndicator>
+                        <star:UnavailablePeriod>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:UnavailablePeriod>
+                        <star:AvailablePeriod>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:AvailablePeriod>
+                      </star:UsagePreference>
+                      <star:Privacy>
+                        <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                        <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                        <star:PrivacyPeriod>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:PrivacyPeriod>
+                      </star:Privacy>
+                    </star:TelephoneCommunication>
+                    <star:UsagePreference>
+                      <star:PriorityRankingNumeric>%string%</star:PriorityRankingNumeric>
+                      <star:PreferredIndicator>%string%</star:PreferredIndicator>
+                      <star:UnavailablePeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:UnavailablePeriod>
+                      <star:AvailablePeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:AvailablePeriod>
+                    </star:UsagePreference>
+                    <star:PostalAddress>
+                      <star:AddressID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:AddressID>
+                      <star:AddressType listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AddressType>
+                      <star:AttentionOf languageID="%string%">%string%</star:AttentionOf>
+                      <star:CareOf languageID="%string%">%string%</star:CareOf>
+                      <star:LineOne languageID="%string%">%string%</star:LineOne>
+                      <star:LineTwo languageID="%string%">%string%</star:LineTwo>
+                      <star:LineThree languageID="%string%">%string%</star:LineThree>
+                      <star:LineFour languageID="%string%">%string%</star:LineFour>
+                      <star:LineFive languageID="%string%">%string%</star:LineFive>
+                      <star:CitySub-DivisionName languageID="%string%">%string%</star:CitySub-DivisionName>
+                      <star:CityName languageID="%string%">%string%</star:CityName>
+                      <star:CountryID>%string%</star:CountryID>
+                      <star:Postcode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:Postcode>
+                      <star:StateOrProvinceCountrySub-DivisionID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:StateOrProvinceCountrySub-DivisionID>
+                      <star:CountyCountrySub-Division languageID="%string%">%string%</star:CountyCountrySub-Division>
+                      <star:AddressUpdateDateTime>%string%</star:AddressUpdateDateTime>
+                      <star:Privacy>
+                        <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                        <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                        <star:PrivacyPeriod>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:PrivacyPeriod>
+                      </star:Privacy>
+                    </star:PostalAddress>
+                    <star:FaxCommunication>
+                      <star:URIID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:URIID>
+                      <star:ChannelCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ChannelCode>
+                      <star:LocalNumber languageID="%string%">%string%</star:LocalNumber>
+                      <star:CompleteNumber languageID="%string%">%string%</star:CompleteNumber>
+                      <star:CountryNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CountryNumberCode>
+                      <star:ExtensionNumber languageID="%string%">%string%</star:ExtensionNumber>
+                      <star:AreaNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AreaNumberCode>
+                      <star:Access languageID="%string%">%string%</star:Access>
+                      <star:UseCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:UseCode>
+                      <star:ServiceProviderName languageID="%string%">%string%</star:ServiceProviderName>
+                      <star:HTMLPreferredIndicator>%string%</star:HTMLPreferredIndicator>
+                      <star:UsagePreference>
+                        <star:PriorityRankingNumeric>%string%</star:PriorityRankingNumeric>
+                        <star:PreferredIndicator>%string%</star:PreferredIndicator>
+                        <star:UnavailablePeriod>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:UnavailablePeriod>
+                        <star:AvailablePeriod>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:AvailablePeriod>
+                      </star:UsagePreference>
+                      <star:Privacy>
+                        <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                        <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                        <star:PrivacyPeriod>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:PrivacyPeriod>
+                      </star:Privacy>
+                    </star:FaxCommunication>
+                    <star:URICommunication>
+                      <star:URIID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:URIID>
+                      <star:ChannelCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ChannelCode>
+                      <star:LocalNumber languageID="%string%">%string%</star:LocalNumber>
+                      <star:CompleteNumber languageID="%string%">%string%</star:CompleteNumber>
+                      <star:CountryNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CountryNumberCode>
+                      <star:ExtensionNumber languageID="%string%">%string%</star:ExtensionNumber>
+                      <star:AreaNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AreaNumberCode>
+                      <star:Access languageID="%string%">%string%</star:Access>
+                      <star:UseCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:UseCode>
+                      <star:ServiceProviderName languageID="%string%">%string%</star:ServiceProviderName>
+                      <star:HTMLPreferredIndicator>%string%</star:HTMLPreferredIndicator>
+                      <star:UsagePreference>
+                        <star:PriorityRankingNumeric>%string%</star:PriorityRankingNumeric>
+                        <star:PreferredIndicator>%string%</star:PreferredIndicator>
+                        <star:UnavailablePeriod>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:UnavailablePeriod>
+                        <star:AvailablePeriod>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:AvailablePeriod>
+                      </star:UsagePreference>
+                      <star:Privacy>
+                        <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                        <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                        <star:PrivacyPeriod>
+                          <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                          <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                          <star:StartDateTime>%string%</star:StartDateTime>
+                          <star:EndDateTime>%string%</star:EndDateTime>
+                          <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                          <star:OpenIndicator>%string%</star:OpenIndicator>
+                          <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                        </star:PrivacyPeriod>
+                      </star:Privacy>
+                    </star:URICommunication>
+                    <star:ContactMethodTypeCode>%string%</star:ContactMethodTypeCode>
+                  </star:PrimaryContact>
+                  <star:PostalAddress>
+                    <star:AddressID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:AddressID>
+                    <star:AddressType listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AddressType>
+                    <star:AttentionOf languageID="%string%">%string%</star:AttentionOf>
+                    <star:CareOf languageID="%string%">%string%</star:CareOf>
+                    <star:LineOne languageID="%string%">%string%</star:LineOne>
+                    <star:LineTwo languageID="%string%">%string%</star:LineTwo>
+                    <star:LineThree languageID="%string%">%string%</star:LineThree>
+                    <star:LineFour languageID="%string%">%string%</star:LineFour>
+                    <star:LineFive languageID="%string%">%string%</star:LineFive>
+                    <star:CitySub-DivisionName languageID="%string%">%string%</star:CitySub-DivisionName>
+                    <star:CityName languageID="%string%">%string%</star:CityName>
+                    <star:CountryID>%string%</star:CountryID>
+                    <star:Postcode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:Postcode>
+                    <star:StateOrProvinceCountrySub-DivisionID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:StateOrProvinceCountrySub-DivisionID>
+                    <star:CountyCountrySub-Division languageID="%string%">%string%</star:CountyCountrySub-Division>
+                    <star:AddressUpdateDateTime>%string%</star:AddressUpdateDateTime>
+                    <star:Privacy>
+                      <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                      <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                      <star:PrivacyPeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:PrivacyPeriod>
+                    </star:Privacy>
+                  </star:PostalAddress>
+                  <star:DoingBusinessAsName languageID="%string%">%string%</star:DoingBusinessAsName>
+                  <star:LegalClassificationCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:LegalClassificationCode>
+                  <star:InceptionDateTime>%string%</star:InceptionDateTime>
+                  <star:NumberOfEmployeesNumeric>%string%</star:NumberOfEmployeesNumeric>
+                </star:SpecifiedOrganization>
+                <star:SpecifiedPerson>
+                  <star:ID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ID>
+                  <star:GivenName languageID="%string%">%string%</star:GivenName>
+                  <star:Alias languageID="%string%">%string%</star:Alias>
+                  <star:MiddleName languageID="%string%">%string%</star:MiddleName>
+                  <star:FamilyName languageID="%string%">%string%</star:FamilyName>
+                  <star:Title languageID="%string%">%string%</star:Title>
+                  <star:Salutation languageID="%string%">%string%</star:Salutation>
+                  <star:NameSuffix languageID="%string%">%string%</star:NameSuffix>
+                  <star:MaritalStatusCode>%string%</star:MaritalStatusCode>
+                  <star:GenderCode>%string%</star:GenderCode>
+                  <star:BirthDate>%string%</star:BirthDate>
+                  <star:AgeMeasure unitCode="%string%">%string%</star:AgeMeasure>
+                  <star:MaidenName languageID="%string%">%string%</star:MaidenName>
+                  <star:PreferredName languageID="%string%">%string%</star:PreferredName>
+                  <star:ResidenceAddress>
+                    <star:AddressID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:AddressID>
+                    <star:AddressType listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AddressType>
+                    <star:AttentionOf languageID="%string%">%string%</star:AttentionOf>
+                    <star:CareOf languageID="%string%">%string%</star:CareOf>
+                    <star:LineOne languageID="%string%">%string%</star:LineOne>
+                    <star:LineTwo languageID="%string%">%string%</star:LineTwo>
+                    <star:LineThree languageID="%string%">%string%</star:LineThree>
+                    <star:LineFour languageID="%string%">%string%</star:LineFour>
+                    <star:LineFive languageID="%string%">%string%</star:LineFive>
+                    <star:CitySub-DivisionName languageID="%string%">%string%</star:CitySub-DivisionName>
+                    <star:CityName languageID="%string%">%string%</star:CityName>
+                    <star:CountryID>%string%</star:CountryID>
+                    <star:Postcode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:Postcode>
+                    <star:StateOrProvinceCountrySub-DivisionID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:StateOrProvinceCountrySub-DivisionID>
+                    <star:CountyCountrySub-Division languageID="%string%">%string%</star:CountyCountrySub-Division>
+                    <star:AddressUpdateDateTime>%string%</star:AddressUpdateDateTime>
+                    <star:Privacy>
+                      <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                      <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                      <star:PrivacyPeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:PrivacyPeriod>
+                    </star:Privacy>
+                  </star:ResidenceAddress>
+                  <star:TelephoneCommunication>
+                    <star:URIID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:URIID>
+                    <star:ChannelCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ChannelCode>
+                    <star:LocalNumber languageID="%string%">%string%</star:LocalNumber>
+                    <star:CompleteNumber languageID="%string%">%string%</star:CompleteNumber>
+                    <star:CountryNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CountryNumberCode>
+                    <star:ExtensionNumber languageID="%string%">%string%</star:ExtensionNumber>
+                    <star:AreaNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AreaNumberCode>
+                    <star:Access languageID="%string%">%string%</star:Access>
+                    <star:UseCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:UseCode>
+                    <star:ServiceProviderName languageID="%string%">%string%</star:ServiceProviderName>
+                    <star:HTMLPreferredIndicator>%string%</star:HTMLPreferredIndicator>
+                    <star:UsagePreference>
+                      <star:PriorityRankingNumeric>%string%</star:PriorityRankingNumeric>
+                      <star:PreferredIndicator>%string%</star:PreferredIndicator>
+                      <star:UnavailablePeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:UnavailablePeriod>
+                      <star:AvailablePeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:AvailablePeriod>
+                    </star:UsagePreference>
+                    <star:Privacy>
+                      <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                      <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                      <star:PrivacyPeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:PrivacyPeriod>
+                    </star:Privacy>
+                  </star:TelephoneCommunication>
+                  <star:FaxCommunication>
+                    <star:URIID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:URIID>
+                    <star:ChannelCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ChannelCode>
+                    <star:LocalNumber languageID="%string%">%string%</star:LocalNumber>
+                    <star:CompleteNumber languageID="%string%">%string%</star:CompleteNumber>
+                    <star:CountryNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CountryNumberCode>
+                    <star:ExtensionNumber languageID="%string%">%string%</star:ExtensionNumber>
+                    <star:AreaNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AreaNumberCode>
+                    <star:Access languageID="%string%">%string%</star:Access>
+                    <star:UseCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:UseCode>
+                    <star:ServiceProviderName languageID="%string%">%string%</star:ServiceProviderName>
+                    <star:HTMLPreferredIndicator>%string%</star:HTMLPreferredIndicator>
+                    <star:UsagePreference>
+                      <star:PriorityRankingNumeric>%string%</star:PriorityRankingNumeric>
+                      <star:PreferredIndicator>%string%</star:PreferredIndicator>
+                      <star:UnavailablePeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:UnavailablePeriod>
+                      <star:AvailablePeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:AvailablePeriod>
+                    </star:UsagePreference>
+                    <star:Privacy>
+                      <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                      <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                      <star:PrivacyPeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:PrivacyPeriod>
+                    </star:Privacy>
+                  </star:FaxCommunication>
+                  <star:URICommunication>
+                    <star:URIID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:URIID>
+                    <star:ChannelCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ChannelCode>
+                    <star:LocalNumber languageID="%string%">%string%</star:LocalNumber>
+                    <star:CompleteNumber languageID="%string%">%string%</star:CompleteNumber>
+                    <star:CountryNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CountryNumberCode>
+                    <star:ExtensionNumber languageID="%string%">%string%</star:ExtensionNumber>
+                    <star:AreaNumberCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AreaNumberCode>
+                    <star:Access languageID="%string%">%string%</star:Access>
+                    <star:UseCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:UseCode>
+                    <star:ServiceProviderName languageID="%string%">%string%</star:ServiceProviderName>
+                    <star:HTMLPreferredIndicator>%string%</star:HTMLPreferredIndicator>
+                    <star:UsagePreference>
+                      <star:PriorityRankingNumeric>%string%</star:PriorityRankingNumeric>
+                      <star:PreferredIndicator>%string%</star:PreferredIndicator>
+                      <star:UnavailablePeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:UnavailablePeriod>
+                      <star:AvailablePeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:AvailablePeriod>
+                    </star:UsagePreference>
+                    <star:Privacy>
+                      <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                      <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                      <star:PrivacyPeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:PrivacyPeriod>
+                    </star:Privacy>
+                  </star:URICommunication>
+                  <star:NationalityCountryID>%string%</star:NationalityCountryID>
+                  <star:ContactMethodTypeCode>%string%</star:ContactMethodTypeCode>
+                  <star:LanguageCode>%string%</star:LanguageCode>
+                  <star:PostalAddress>
+                    <star:AddressID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:AddressID>
+                    <star:AddressType listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:AddressType>
+                    <star:AttentionOf languageID="%string%">%string%</star:AttentionOf>
+                    <star:CareOf languageID="%string%">%string%</star:CareOf>
+                    <star:LineOne languageID="%string%">%string%</star:LineOne>
+                    <star:LineTwo languageID="%string%">%string%</star:LineTwo>
+                    <star:LineThree languageID="%string%">%string%</star:LineThree>
+                    <star:LineFour languageID="%string%">%string%</star:LineFour>
+                    <star:LineFive languageID="%string%">%string%</star:LineFive>
+                    <star:CitySub-DivisionName languageID="%string%">%string%</star:CitySub-DivisionName>
+                    <star:CityName languageID="%string%">%string%</star:CityName>
+                    <star:CountryID>%string%</star:CountryID>
+                    <star:Postcode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:Postcode>
+                    <star:StateOrProvinceCountrySub-DivisionID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:StateOrProvinceCountrySub-DivisionID>
+                    <star:CountyCountrySub-Division languageID="%string%">%string%</star:CountyCountrySub-Division>
+                    <star:AddressUpdateDateTime>%string%</star:AddressUpdateDateTime>
+                    <star:Privacy>
+                      <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                      <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                      <star:PrivacyPeriod>
+                        <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                        <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                        <star:StartDateTime>%string%</star:StartDateTime>
+                        <star:EndDateTime>%string%</star:EndDateTime>
+                        <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                        <star:OpenIndicator>%string%</star:OpenIndicator>
+                        <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                      </star:PrivacyPeriod>
+                    </star:Privacy>
+                  </star:PostalAddress>
+                  <star:OriginalContactMethodTypeCode>%string%</star:OriginalContactMethodTypeCode>
+                  <star:SpecifiedOccupation>
+                    <star:TypeCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:TypeCode>
+                    <star:Title languageID="%string%">%string%</star:Title>
+                    <star:Description languageID="%string%">%string%</star:Description>
+                    <star:ClassCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:ClassCode>
+                    <star:RankingCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:RankingCode>
+                    <star:FullTimeIndicator>%string%</star:FullTimeIndicator>
+                    <star:PeriodHeld>
+                      <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                      <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                      <star:StartDateTime>%string%</star:StartDateTime>
+                      <star:EndDateTime>%string%</star:EndDateTime>
+                      <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                      <star:OpenIndicator>%string%</star:OpenIndicator>
+                      <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                    </star:PeriodHeld>
+                  </star:SpecifiedOccupation>
+                  <star:Trait>
+                    <star:TraitText languageID="%string%">%string%</star:TraitText>
+                    <star:TraitGroupCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:TraitGroupCode>
+                    <star:TraitTypeCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:TraitTypeCode>
+                  </star:Trait>
+                  <star:CustomerStatusCode listID="%string%" listAgencyID="%string%" listAgencyName="%string%" listName="%string%" listVersionID="%string%" name="%string%" languageID="%string%" listURI="%string%" listSchemeURI="%string%">%string%</star:CustomerStatusCode>
+                  <star:DateOfBirthToleranceNumeric>%string%</star:DateOfBirthToleranceNumeric>
+                </star:SpecifiedPerson>
+                <star:Privacy>
+                  <star:PrivacyIndicator>%string%</star:PrivacyIndicator>
+                  <star:PrivacyTypeString>%string%</star:PrivacyTypeString>
+                  <star:PrivacyPeriod>
+                    <star:DurationMeasure unitCode="%string%">%string%</star:DurationMeasure>
+                    <star:InclusiveIndicator>%string%</star:InclusiveIndicator>
+                    <star:StartDateTime>%string%</star:StartDateTime>
+                    <star:EndDateTime>%string%</star:EndDateTime>
+                    <star:CompleteDateTime>%string%</star:CompleteDateTime>
+                    <star:OpenIndicator>%string%</star:OpenIndicator>
+                    <star:DayOfWeekCode>%string%</star:DayOfWeekCode>
+                  </star:PrivacyPeriod>
+                </star:Privacy>
+                <star:PreferredLanguageCode>%string%</star:PreferredLanguageCode>
+                <star:ManufacturerCustomerID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ManufacturerCustomerID>
+                <star:ManufacturerHouseholdID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:ManufacturerHouseholdID>
+                <star:PartyActionEvent>
+                  <star:EventID schemeID="%string%" schemeName="%string%" schemeAgencyID="%string%" schemeAgencyName="%string%" schemeVersionID="%string%" schemeDataURI="%string%" schemeURI="%string%">%string%</star:EventID>
+                  <star:EventTypeCode>%string%</star:EventTypeCode>
+                  <star:EventDescription languageID="%string%">%string%</star:EventDescription>
+                  <star:EventOccurrenceDateTime>%string%</star:EventOccurrenceDateTime>
+                </star:PartyActionEvent>
+                <star:DealerIndicator>%string%</star:DealerIndicator>
+              </star:DealerParty>
+              <star:FreeFormTextGroup>
+                <star:Note languageID="%string%">%string%</star:Note>
+                <star:Description languageID="%string%">%string%</star:Description>
+              </star:FreeFormTextGroup>
+              <star:OrderQuantityReceived unitCode="%string%">%string%</star:OrderQuantityReceived>
+              <star:LastReceiptDate>%string%</star:LastReceiptDate>
+              <star:DateOfLastOrder>%string%</star:DateOfLastOrder>
+              <star:LastPhysicalInventoryDate>%string%</star:LastPhysicalInventoryDate>
+              <star:LastReceiptQuantity unitCode="%string%">%string%</star:LastReceiptQuantity>
+              <star:PartCostAmount currencyID="%string%">%string%</star:PartCostAmount>
+              <star:MinimumOrderQuantity unitCode="%string%">%string%</star:MinimumOrderQuantity>
+            </star:PartsInventoryLine>
+          </star:PartsInventory>
+        </star:ProcessPartsInventoryDataArea>
+      </star:ProcessPartsInventory>
+    </as:Structure>
+  </as:AssemblyStructure>
+  <as:BusinessUseContext>
+    <as:Rules>
+      <as:default>
+        <as:context>
+
+          <!-- TEST CASE SPECIFIC -->
+
+          <as:constraint condition="not(string(./star:DateOfLastOrder)" action="printMessage(//star:PartsInventoryLine,This Test Case requires the Date Of Last Order element to be present in the PartsInventory Line component.)" />
+
+
+          <!-- CAM-generated makerepeatable -->
+          <as:constraint action="makeRepeatable(//oagis:ActionCriteria/oagis:ActionExpression)" />
+          <as:constraint action="makeRepeatable(//oagis:ChangeStatus/oagis:Reason)" />
+          <as:constraint action="makeRepeatable(//oagis:ChangeStatus/oagis:StateChange)" />
+          <as:constraint action="makeRepeatable(//oagis:StateChange/star:Description)" />
+          <as:constraint action="makeRepeatable(//oagis:StateChange/star:Note)" />
+          <as:constraint action="makeRepeatable(//star:DealerParty/star:AlternatePartyDocument)" />
+          <as:constraint action="makeRepeatable(//star:DealerParty/star:PartyActionEvent)" />
+          <as:constraint action="makeRepeatable(//star:DealerParty/star:Privacy)" />
+          <as:constraint action="makeRepeatable(//star:DealerParty/star:SpecialRemarksDescription)" />
+          <as:constraint action="makeRepeatable(//star:DocumentIdentificationGroup/star:AlternateDocumentIdentification)" />
+          <as:constraint action="makeRepeatable(//star:FaxCommunication/star:Privacy)" />
+          <as:constraint action="makeRepeatable(//star:FreeFormTextGroup/star:Description)" />
+          <as:constraint action="makeRepeatable(//star:FreeFormTextGroup/star:Note)" />
+          <as:constraint action="makeRepeatable(//star:ItemIdentificationGroup/star:ItemIdentification)" />
+          <as:constraint action="makeRepeatable(//star:PartsForecasting/star:ExpectedInventory)" />
+          <as:constraint action="makeRepeatable(//star:PartsForecasting/star:QuantitySoldHistory)" />
+          <as:constraint action="makeRepeatable(//star:PartsInventory/star:PartsInventoryLine)" />
+          <as:constraint action="makeRepeatable(//star:PartsInventoryHeader/star:AcknowledgementStatus)" />
+          <as:constraint action="makeRepeatable(//star:PartsInventoryHeader/star:Status)" />
+          <as:constraint action="makeRepeatable(//star:PartsInventoryLine/star:BinLocation)" />
+          <as:constraint action="makeRepeatable(//star:PartsInventoryLine/star:PartSourceCode)" />
+          <as:constraint action="makeRepeatable(//star:PartsInventoryLine/star:Status)" />
+          <as:constraint action="makeRepeatable(//star:PartsProductItem/star:AlternateItemIDs)" />
+          <as:constraint action="makeRepeatable(//star:PartsProductItem/star:PartItemDescription)" />
+          <as:constraint action="makeRepeatable(//star:PartsProductItem/star:PartName)" />
+          <as:constraint action="makeRepeatable(//star:PostalAddress/star:AttentionOf)" />
+          <as:constraint action="makeRepeatable(//star:PostalAddress/star:CareOf)" />
+          <as:constraint action="makeRepeatable(//star:PostalAddress/star:CitySub-DivisionName)" />
+          <as:constraint action="makeRepeatable(//star:PrimaryContact/star:FaxCommunication)" />
+          <as:constraint action="makeRepeatable(//star:PrimaryContact/star:TelephoneCommunication)" />
+          <as:constraint action="makeRepeatable(//star:PrimaryContact/star:URICommunication)" />
+          <as:constraint action="makeRepeatable(//star:Process/oagis:ActionCriteria)" />
+          <as:constraint action="makeRepeatable(//star:ProcessPartsInventoryDataArea/star:PartsInventory)" />
+          <as:constraint action="makeRepeatable(//star:ResidenceAddress/star:AttentionOf)" />
+          <as:constraint action="makeRepeatable(//star:ResidenceAddress/star:CareOf)" />
+          <as:constraint action="makeRepeatable(//star:ResidenceAddress/star:CitySub-DivisionName)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedOccupation/star:Description)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedOccupation/star:Title)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedOrganization/star:PrimaryContact)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedPerson/star:FamilyName)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedPerson/star:GivenName)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedPerson/star:ID)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedPerson/star:LanguageCode)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedPerson/star:SpecifiedOccupation)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedPerson/star:TelephoneCommunication)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedPerson/star:Trait)" />
+          <as:constraint action="makeRepeatable(//star:SpecifiedPerson/star:URICommunication)" />
+          <as:constraint action="makeRepeatable(//star:TelephoneCommunication/star:Privacy)" />
+          <as:constraint action="makeRepeatable(//star:Trait/star:TraitText)" />
+          <as:constraint action="makeRepeatable(//star:URICommunication/star:Privacy)" />
+          <as:constraint action="makeRepeatable(//star:UsagePreference/star:AvailablePeriod)" />
+          
+          <!-- Tool-generated makeNillable -->
+          <as:constraint action="makeNillable(//star:Sender/star:LogicalID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:ComponentID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:TaskID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:ReferenceID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:ConfirmationCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:AuthorizationID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:CreatorNameCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:SenderNameCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:URI,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:DealerNumberID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:StoreNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:AreaNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:DealerCountryCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:LanguageCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:DeliverPendingMailIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:Password,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:SystemVersion,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:PartyID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:LocationID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:ServiceID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Sender/star:NounCountNumeric,xsd)"/>
+          <as:constraint action="makeNillable(//star:ApplicationArea/star:CreationDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:ApplicationArea/oagis:Signature,xsd)"/>
+          <as:constraint action="makeNillable(//star:ApplicationArea/star:BODID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:DestinationNameCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:DestinationURI,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:DestinationSoftwareCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:DestinationSoftware,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:DealerNumberID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:StoreNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:AreaNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:DealerTargetCountry,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:PartyReceiverID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:LocationReceiverID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Destination/star:ServiceMessageID,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:ActionCriteria/oagis:ActionExpression,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:ChangeStatus/oagis:Code,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:ChangeStatus/star:Description,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:ChangeStatus/oagis:EffectiveDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:ChangeStatus/oagis:ReasonCode,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:ChangeStatus/oagis:Reason,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:StateChange/oagis:FromStateCode,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:StateChange/oagis:ToStateCode,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:StateChange/oagis:ChangeDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:StateChange/star:Description,xsd)"/>
+          <as:constraint action="makeNillable(//oagis:StateChange/star:Note,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryHeader/star:DocumentDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryHeader/star:SecondaryPassword,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryHeader/star:SecondaryDealerNumberID,xsd)"/>
+          <as:constraint action="makeNillable(//star:DocumentIdentification/star:DocumentID,xsd)"/>
+          <as:constraint action="makeNillable(//star:DocumentIdentification/star:AgencyRoleCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:AlternateDocumentIdentification/star:DocumentID,xsd)"/>
+          <as:constraint action="makeNillable(//star:AlternateDocumentIdentification/star:AgencyRoleCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryHeader/star:PartTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryHeader/star:FileSequenceNumberString,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryHeader/star:InventoryTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryHeader/star:LastSentInventoryBODID,xsd)"/>
+          <as:constraint action="makeNillable(//star:Status/star:StatusTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Status/star:StatusCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Status/star:StatusText,xsd)"/>
+          <as:constraint action="makeNillable(//star:AcknowledgementStatus/star:StatusTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:AcknowledgementStatus/star:StatusCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:AcknowledgementStatus/star:StatusText,xsd)"/>
+          <as:constraint action="makeNillable(//star:AcknowledgementStatus/star:ItemQuantity,xsd)"/>
+          <as:constraint action="makeNillable(//star:AcknowledgementStatus/star:ShipWarehouseNumeric,xsd)"/>
+          <as:constraint action="makeNillable(//star:AcknowledgementStatus/star:ShipmentNumberString,xsd)"/>
+          <as:constraint action="makeNillable(//star:AcknowledgementStatus/star:ProcessedItemID,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryHeader/star:DatasourceURICode,xsd)"/>
+          <as:constraint action="makeNillable(//star:FreeFormTextGroup/star:Note,xsd)"/>
+          <as:constraint action="makeNillable(//star:FreeFormTextGroup/star:Description,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryHeader/star:ReorderTransmitTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryHeader/star:Period,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:ItemID,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityOnHand,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantitySold,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityOfLostSale,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:PartClassCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityOnOrder,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityReOrderPoint,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityTwelveMonthSales,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:BinLocation,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityTwelveMonthLostSales,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:BackOrderQuantity,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityOfReturn,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityReserved,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:UnitPriceAmount,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:CorePriceAmount,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityDealerPartStocking,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:MonthsNoSaleNumeric,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityAvailable,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:ReplenishmentCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:LastSoldDate,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityUserMin,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityUserMax,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:PartSourceCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:StockingStatusCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:SystemSetupDate,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:QuantityBestStockingLevel,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:AverageWeeklyUsageQuantity,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:ItemID,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartName,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartItemDescription,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartClassCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartManufacturer,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:ClassCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:HazmatIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:HazardousMaterialDescription,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:ItemIDCategoryTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:AlternateItemIDs/star:ItemID,xsd)"/>
+          <as:constraint action="makeNillable(//star:AlternateItemIDs/star:ItemIDCategoryTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:ItemIdentification/star:ItemID,xsd)"/>
+          <as:constraint action="makeNillable(//star:ItemIdentification/star:AgencyRoleCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:SerialNumberID,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:SerialNumberIDRequiredIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PackageQuantity,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:AcquisitionMethodTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:VendorCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:ProgramCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartConditionCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:UOMCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:VMRSCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:StockingLevelIndicatorCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:EligibleForReturnIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartSupplyStatusCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:CorePartDescription,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:RemanufacturedPartDescription,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PatentPendingDescription,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:ServiceFileDescription,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartDealerSalesRestriction,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartOrderRestriction,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartSourceCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsProductItem/star:PartSourceDescription,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsForecasting/star:JobQuantity,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsForecasting/star:FullBinQuantity,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsForecasting/star:PeriodsInYearNumeric,xsd)"/>
+          <as:constraint action="makeNillable(//star:QuantitySoldHistory/star:PeriodID,xsd)"/>
+          <as:constraint action="makeNillable(//star:QuantitySoldHistory/star:QuantitySold,xsd)"/>
+          <as:constraint action="makeNillable(//star:QuantitySoldHistory/star:SoldDate,xsd)"/>
+          <as:constraint action="makeNillable(//star:QuantitySoldHistory/star:PartSaleType,xsd)"/>
+          <as:constraint action="makeNillable(//star:ExpectedInventory/star:OrderTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:ExpectedInventory/star:QuantityOnOrder,xsd)"/>
+          <as:constraint action="makeNillable(//star:ExpectedInventory/star:ETADate,xsd)"/>
+          <as:constraint action="makeNillable(//star:ExpectedInventory/star:OrderDate,xsd)"/>
+          <as:constraint action="makeNillable(//star:DealerParty/star:PartyID,xsd)"/>
+          <as:constraint action="makeNillable(//star:DealerParty/star:LocationID,xsd)"/>
+          <as:constraint action="makeNillable(//star:DealerParty/star:DealerManagementSystemID,xsd)"/>
+          <as:constraint action="makeNillable(//star:DealerParty/star:AuthorizationID,xsd)"/>
+          <as:constraint action="makeNillable(//star:DealerParty/star:RelationshipTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:DealerParty/star:SpecialRemarksDescription,xsd)"/>
+          <as:constraint action="makeNillable(//star:AlternatePartyDocument/star:DocumentID,xsd)"/>
+          <as:constraint action="makeNillable(//star:AlternatePartyDocument/star:DocumentType,xsd)"/>
+          <as:constraint action="makeNillable(//star:AlternatePartyDocument/star:IssuingName,xsd)"/>
+          <as:constraint action="makeNillable(//star:EffectivePeriod/star:DurationMeasure,xsd)"/>
+          <as:constraint action="makeNillable(//star:EffectivePeriod/star:InclusiveIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:EffectivePeriod/star:StartDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:EffectivePeriod/star:EndDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:EffectivePeriod/star:CompleteDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:EffectivePeriod/star:OpenIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:EffectivePeriod/star:DayOfWeekCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:BusinessTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:CompanyName,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:OrganizationID,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:DistrictID,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:BranchCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:CompanyCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:DivisionCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:ServiceCenterCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:HoldingCompanyName,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrimaryContact/star:ID,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrimaryContact/star:JobTitle,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrimaryContact/star:Responsibility,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrimaryContact/star:DepartmentName,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrimaryContact/star:TypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrimaryContact/star:PersonName,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:ID,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:GivenName,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:Alias,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:MiddleName,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:FamilyName,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:Title,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:Salutation,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:NameSuffix,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:MaritalStatusCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:GenderCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:BirthDate,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:AgeMeasure,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:MaidenName,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:PreferredName,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:AddressID,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:AddressType,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:AttentionOf,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:CareOf,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:LineOne,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:LineTwo,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:LineThree,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:LineFour,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:LineFive,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:CitySub-DivisionName,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:CityName,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:CountryID,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:Postcode,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:StateOrProvinceCountrySub-DivisionID,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:CountyCountrySub-Division,xsd)"/>
+          <as:constraint action="makeNillable(//star:ResidenceAddress/star:AddressUpdateDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:Privacy/star:PrivacyIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:Privacy/star:PrivacyTypeString,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrivacyPeriod/star:DurationMeasure,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrivacyPeriod/star:InclusiveIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrivacyPeriod/star:StartDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrivacyPeriod/star:EndDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrivacyPeriod/star:CompleteDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrivacyPeriod/star:OpenIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrivacyPeriod/star:DayOfWeekCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:URIID,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:ChannelCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:LocalNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:CompleteNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:CountryNumberCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:ExtensionNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:AreaNumberCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:Access,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:UseCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:ServiceProviderName,xsd)"/>
+          <as:constraint action="makeNillable(//star:TelephoneCommunication/star:HTMLPreferredIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:UsagePreference/star:PriorityRankingNumeric,xsd)"/>
+          <as:constraint action="makeNillable(//star:UsagePreference/star:PreferredIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:UnavailablePeriod/star:DurationMeasure,xsd)"/>
+          <as:constraint action="makeNillable(//star:UnavailablePeriod/star:InclusiveIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:UnavailablePeriod/star:StartDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:UnavailablePeriod/star:EndDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:UnavailablePeriod/star:CompleteDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:UnavailablePeriod/star:OpenIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:UnavailablePeriod/star:DayOfWeekCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:AvailablePeriod/star:DurationMeasure,xsd)"/>
+          <as:constraint action="makeNillable(//star:AvailablePeriod/star:InclusiveIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:AvailablePeriod/star:StartDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:AvailablePeriod/star:EndDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:AvailablePeriod/star:CompleteDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:AvailablePeriod/star:OpenIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:AvailablePeriod/star:DayOfWeekCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:URIID,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:ChannelCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:LocalNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:CompleteNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:CountryNumberCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:ExtensionNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:AreaNumberCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:Access,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:UseCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:ServiceProviderName,xsd)"/>
+          <as:constraint action="makeNillable(//star:FaxCommunication/star:HTMLPreferredIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:URIID,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:ChannelCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:LocalNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:CompleteNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:CountryNumberCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:ExtensionNumber,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:AreaNumberCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:Access,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:UseCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:ServiceProviderName,xsd)"/>
+          <as:constraint action="makeNillable(//star:URICommunication/star:HTMLPreferredIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:NationalityCountryID,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:ContactMethodTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:LanguageCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:AddressID,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:AddressType,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:AttentionOf,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:CareOf,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:LineOne,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:LineTwo,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:LineThree,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:LineFour,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:LineFive,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:CitySub-DivisionName,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:CityName,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:CountryID,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:Postcode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:StateOrProvinceCountrySub-DivisionID,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:CountyCountrySub-Division,xsd)"/>
+          <as:constraint action="makeNillable(//star:PostalAddress/star:AddressUpdateDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:OriginalContactMethodTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOccupation/star:TypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOccupation/star:Title,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOccupation/star:Description,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOccupation/star:ClassCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOccupation/star:RankingCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOccupation/star:FullTimeIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:PeriodHeld/star:DurationMeasure,xsd)"/>
+          <as:constraint action="makeNillable(//star:PeriodHeld/star:InclusiveIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:PeriodHeld/star:StartDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:PeriodHeld/star:EndDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:PeriodHeld/star:CompleteDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:PeriodHeld/star:OpenIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:PeriodHeld/star:DayOfWeekCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Trait/star:TraitText,xsd)"/>
+          <as:constraint action="makeNillable(//star:Trait/star:TraitGroupCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:Trait/star:TraitTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:CustomerStatusCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedPerson/star:DateOfBirthToleranceNumeric,xsd)"/>
+          <as:constraint action="makeNillable(//star:PrimaryContact/star:ContactMethodTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:DoingBusinessAsName,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:LegalClassificationCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:InceptionDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:SpecifiedOrganization/star:NumberOfEmployeesNumeric,xsd)"/>
+          <as:constraint action="makeNillable(//star:DealerParty/star:PreferredLanguageCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:DealerParty/star:ManufacturerCustomerID,xsd)"/>
+          <as:constraint action="makeNillable(//star:DealerParty/star:ManufacturerHouseholdID,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartyActionEvent/star:EventID,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartyActionEvent/star:EventTypeCode,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartyActionEvent/star:EventDescription,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartyActionEvent/star:EventOccurrenceDateTime,xsd)"/>
+          <as:constraint action="makeNillable(//star:DealerParty/star:DealerIndicator,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:OrderQuantityReceived,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:LastReceiptDate,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:DateOfLastOrder,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:LastPhysicalInventoryDate,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:LastReceiptQuantity,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:PartCostAmount,xsd)"/>
+          <as:constraint action="makeNillable(//star:PartsInventoryLine/star:MinimumOrderQuantity,xsd)"/>
+
+          <!-- Find/replace-generated constraints -->
+          <as:constraint action="makeOptional(//star:Sender/star:LogicalID"/>
+          <as:constraint action="makeOptional(//star:Sender/star:ComponentID"/>
+          <as:constraint action="makeOptional(//star:Sender/star:TaskID"/>
+          <as:constraint action="makeOptional(//star:Sender/star:ReferenceID"/>
+          <as:constraint action="makeOptional(//star:Sender/star:ConfirmationCode"/>
+          <as:constraint action="makeOptional(//star:Sender/star:AuthorizationID"/>
+          <as:constraint action="makeOptional(//star:Sender/star:CreatorNameCode"/>
+          <as:constraint action="makeOptional(//star:Sender/star:SenderNameCode"/>
+          <as:constraint action="makeOptional(//star:Sender/star:URI"/>
+          <as:constraint action="makeOptional(//star:Sender/star:DealerNumberID"/>
+          <as:constraint action="makeOptional(//star:Sender/star:StoreNumber"/>
+          <as:constraint action="makeOptional(//star:Sender/star:AreaNumber"/>
+          <as:constraint action="makeOptional(//star:Sender/star:DealerCountryCode"/>
+          <as:constraint action="makeOptional(//star:Sender/star:LanguageCode"/>
+          <as:constraint action="makeOptional(//star:Sender/star:DeliverPendingMailIndicator"/>
+          <as:constraint action="makeOptional(//star:Sender/star:Password"/>
+          <as:constraint action="makeOptional(//star:Sender/star:SystemVersion"/>
+          <as:constraint action="makeOptional(//star:Sender/star:PartyID"/>
+          <as:constraint action="makeOptional(//star:Sender/star:LocationID"/>
+          <as:constraint action="makeOptional(//star:Sender/star:ServiceID"/>
+          <as:constraint action="makeOptional(//star:Sender/star:NounCountNumeric"/>
+          <as:constraint action="makeOptional(//star:ApplicationArea/star:CreationDateTime"/>
+          <as:constraint action="makeOptional(//star:ApplicationArea/oagis:Signature"/>
+          <as:constraint action="makeOptional(//star:ApplicationArea/star:BODID"/>
+          <as:constraint action="makeOptional(//star:Destination/star:DestinationNameCode"/>
+          <as:constraint action="makeOptional(//star:Destination/star:DestinationURI"/>
+          <as:constraint action="makeOptional(//star:Destination/star:DestinationSoftwareCode"/>
+          <as:constraint action="makeOptional(//star:Destination/star:DestinationSoftware"/>
+          <as:constraint action="makeOptional(//star:Destination/star:DealerNumberID"/>
+          <as:constraint action="makeOptional(//star:Destination/star:StoreNumber"/>
+          <as:constraint action="makeOptional(//star:Destination/star:AreaNumber"/>
+          <as:constraint action="makeOptional(//star:Destination/star:DealerTargetCountry"/>
+          <as:constraint action="makeOptional(//star:Destination/star:PartyReceiverID"/>
+          <as:constraint action="makeOptional(//star:Destination/star:LocationReceiverID"/>
+          <as:constraint action="makeOptional(//star:Destination/star:ServiceMessageID"/>
+          <as:constraint action="makeOptional(//oagis:ActionCriteria/oagis:ActionExpression"/>
+          <as:constraint action="makeOptional(//oagis:ChangeStatus/oagis:Code"/>
+          <as:constraint action="makeOptional(//oagis:ChangeStatus/star:Description"/>
+          <as:constraint action="makeOptional(//oagis:ChangeStatus/oagis:EffectiveDateTime"/>
+          <as:constraint action="makeOptional(//oagis:ChangeStatus/oagis:ReasonCode"/>
+          <as:constraint action="makeOptional(//oagis:ChangeStatus/oagis:Reason"/>
+          <as:constraint action="makeOptional(//oagis:StateChange/oagis:FromStateCode"/>
+          <as:constraint action="makeOptional(//oagis:StateChange/oagis:ToStateCode"/>
+          <as:constraint action="makeOptional(//oagis:StateChange/oagis:ChangeDateTime"/>
+          <as:constraint action="makeOptional(//oagis:StateChange/star:Description"/>
+          <as:constraint action="makeOptional(//oagis:StateChange/star:Note"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryHeader/star:DocumentDateTime"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryHeader/star:SecondaryPassword"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryHeader/star:SecondaryDealerNumberID"/>
+          <as:constraint action="makeOptional(//star:DocumentIdentification/star:DocumentID"/>
+          <as:constraint action="makeOptional(//star:DocumentIdentification/star:AgencyRoleCode"/>
+          <as:constraint action="makeOptional(//star:AlternateDocumentIdentification/star:DocumentID"/>
+          <as:constraint action="makeOptional(//star:AlternateDocumentIdentification/star:AgencyRoleCode"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryHeader/star:PartTypeCode"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryHeader/star:FileSequenceNumberString"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryHeader/star:InventoryTypeCode"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryHeader/star:LastSentInventoryBODID"/>
+          <as:constraint action="makeOptional(//star:Status/star:StatusTypeCode"/>
+          <as:constraint action="makeOptional(//star:Status/star:StatusCode"/>
+          <as:constraint action="makeOptional(//star:Status/star:StatusText"/>
+          <as:constraint action="makeOptional(//star:AcknowledgementStatus/star:StatusTypeCode"/>
+          <as:constraint action="makeOptional(//star:AcknowledgementStatus/star:StatusCode"/>
+          <as:constraint action="makeOptional(//star:AcknowledgementStatus/star:StatusText"/>
+          <as:constraint action="makeOptional(//star:AcknowledgementStatus/star:ItemQuantity"/>
+          <as:constraint action="makeOptional(//star:AcknowledgementStatus/star:ShipWarehouseNumeric"/>
+          <as:constraint action="makeOptional(//star:AcknowledgementStatus/star:ShipmentNumberString"/>
+          <as:constraint action="makeOptional(//star:AcknowledgementStatus/star:ProcessedItemID"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryHeader/star:DatasourceURICode"/>
+          <as:constraint action="makeOptional(//star:FreeFormTextGroup/star:Note"/>
+          <as:constraint action="makeOptional(//star:FreeFormTextGroup/star:Description"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryHeader/star:ReorderTransmitTime"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryHeader/star:Period"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:ItemID"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityOnHand"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantitySold"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityOfLostSale"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:PartClassCode"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityOnOrder"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityReOrderPoint"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityTwelveMonthSales"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:BinLocation"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityTwelveMonthLostSales"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:BackOrderQuantity"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityOfReturn"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityReserved"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:UnitPriceAmount"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:CorePriceAmount"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityDealerPartStocking"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:MonthsNoSaleNumeric"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityAvailable"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:ReplenishmentCode"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:LastSoldDate"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityUserMin"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityUserMax"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:PartSourceCode"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:StockingStatusCode"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:SystemSetupDate"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:QuantityBestStockingLevel"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:AverageWeeklyUsageQuantity"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:ItemID"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartName"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartItemDescription"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartTypeCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartClassCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartManufacturer"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:ClassCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:HazmatIndicator"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:HazardousMaterialDescription"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:ItemIDCategoryTypeCode"/>
+          <as:constraint action="makeOptional(//star:AlternateItemIDs/star:ItemID"/>
+          <as:constraint action="makeOptional(//star:AlternateItemIDs/star:ItemIDCategoryTypeCode"/>
+          <as:constraint action="makeOptional(//star:ItemIdentification/star:ItemID"/>
+          <as:constraint action="makeOptional(//star:ItemIdentification/star:AgencyRoleCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:SerialNumberID"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:SerialNumberIDRequiredIndicator"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PackageQuantity"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:AcquisitionMethodTypeCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:VendorCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:ProgramCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartConditionCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:UOMCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:VMRSCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:StockingLevelIndicatorCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:EligibleForReturnIndicator"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartSupplyStatusCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:CorePartDescription"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:RemanufacturedPartDescription"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PatentPendingDescription"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:ServiceFileDescription"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartDealerSalesRestriction"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartOrderRestriction"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartSourceCode"/>
+          <as:constraint action="makeOptional(//star:PartsProductItem/star:PartSourceDescription"/>
+          <as:constraint action="makeOptional(//star:PartsForecasting/star:JobQuantity"/>
+          <as:constraint action="makeOptional(//star:PartsForecasting/star:FullBinQuantity"/>
+          <as:constraint action="makeOptional(//star:PartsForecasting/star:PeriodsInYearNumeric"/>
+          <as:constraint action="makeOptional(//star:QuantitySoldHistory/star:PeriodID"/>
+          <as:constraint action="makeOptional(//star:QuantitySoldHistory/star:QuantitySold"/>
+          <as:constraint action="makeOptional(//star:QuantitySoldHistory/star:SoldDate"/>
+          <as:constraint action="makeOptional(//star:QuantitySoldHistory/star:PartSaleType"/>
+          <as:constraint action="makeOptional(//star:ExpectedInventory/star:OrderTypeCode"/>
+          <as:constraint action="makeOptional(//star:ExpectedInventory/star:QuantityOnOrder"/>
+          <as:constraint action="makeOptional(//star:ExpectedInventory/star:ETADate"/>
+          <as:constraint action="makeOptional(//star:ExpectedInventory/star:OrderDate"/>
+          <as:constraint action="makeOptional(//star:DealerParty/star:PartyID"/>
+          <as:constraint action="makeOptional(//star:DealerParty/star:LocationID"/>
+          <as:constraint action="makeOptional(//star:DealerParty/star:DealerManagementSystemID"/>
+          <as:constraint action="makeOptional(//star:DealerParty/star:AuthorizationID"/>
+          <as:constraint action="makeOptional(//star:DealerParty/star:RelationshipTypeCode"/>
+          <as:constraint action="makeOptional(//star:DealerParty/star:SpecialRemarksDescription"/>
+          <as:constraint action="makeOptional(//star:AlternatePartyDocument/star:DocumentID"/>
+          <as:constraint action="makeOptional(//star:AlternatePartyDocument/star:DocumentType"/>
+          <as:constraint action="makeOptional(//star:AlternatePartyDocument/star:IssuingName"/>
+          <as:constraint action="makeOptional(//star:EffectivePeriod/star:DurationMeasure"/>
+          <as:constraint action="makeOptional(//star:EffectivePeriod/star:InclusiveIndicator"/>
+          <as:constraint action="makeOptional(//star:EffectivePeriod/star:StartDateTime"/>
+          <as:constraint action="makeOptional(//star:EffectivePeriod/star:EndDateTime"/>
+          <as:constraint action="makeOptional(//star:EffectivePeriod/star:CompleteDateTime"/>
+          <as:constraint action="makeOptional(//star:EffectivePeriod/star:OpenIndicator"/>
+          <as:constraint action="makeOptional(//star:EffectivePeriod/star:DayOfWeekCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:BusinessTypeCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:CompanyName"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:OrganizationID"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:DistrictID"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:BranchCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:CompanyCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:DivisionCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:ServiceCenterCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:HoldingCompanyName"/>
+          <as:constraint action="makeOptional(//star:PrimaryContact/star:ID"/>
+          <as:constraint action="makeOptional(//star:PrimaryContact/star:JobTitle"/>
+          <as:constraint action="makeOptional(//star:PrimaryContact/star:Responsibility"/>
+          <as:constraint action="makeOptional(//star:PrimaryContact/star:DepartmentName"/>
+          <as:constraint action="makeOptional(//star:PrimaryContact/star:TypeCode"/>
+          <as:constraint action="makeOptional(//star:PrimaryContact/star:PersonName"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:ID"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:GivenName"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:Alias"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:MiddleName"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:FamilyName"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:Title"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:Salutation"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:NameSuffix"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:MaritalStatusCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:GenderCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:BirthDate"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:AgeMeasure"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:MaidenName"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:PreferredName"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:AddressID"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:AddressType"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:AttentionOf"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:CareOf"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:LineOne"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:LineTwo"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:LineThree"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:LineFour"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:LineFive"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:CitySub-DivisionName"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:CityName"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:CountryID"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:Postcode"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:StateOrProvinceCountrySub-DivisionID"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:CountyCountrySub-Division"/>
+          <as:constraint action="makeOptional(//star:ResidenceAddress/star:AddressUpdateDateTime"/>
+          <as:constraint action="makeOptional(//star:Privacy/star:PrivacyIndicator"/>
+          <as:constraint action="makeOptional(//star:Privacy/star:PrivacyTypeString"/>
+          <as:constraint action="makeOptional(//star:PrivacyPeriod/star:DurationMeasure"/>
+          <as:constraint action="makeOptional(//star:PrivacyPeriod/star:InclusiveIndicator"/>
+          <as:constraint action="makeOptional(//star:PrivacyPeriod/star:StartDateTime"/>
+          <as:constraint action="makeOptional(//star:PrivacyPeriod/star:EndDateTime"/>
+          <as:constraint action="makeOptional(//star:PrivacyPeriod/star:CompleteDateTime"/>
+          <as:constraint action="makeOptional(//star:PrivacyPeriod/star:OpenIndicator"/>
+          <as:constraint action="makeOptional(//star:PrivacyPeriod/star:DayOfWeekCode"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:URIID"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:ChannelCode"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:LocalNumber"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:CompleteNumber"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:CountryNumberCode"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:ExtensionNumber"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:AreaNumberCode"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:Access"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:UseCode"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:ServiceProviderName"/>
+          <as:constraint action="makeOptional(//star:TelephoneCommunication/star:HTMLPreferredIndicator"/>
+          <as:constraint action="makeOptional(//star:UsagePreference/star:PriorityRankingNumeric"/>
+          <as:constraint action="makeOptional(//star:UsagePreference/star:PreferredIndicator"/>
+          <as:constraint action="makeOptional(//star:UnavailablePeriod/star:DurationMeasure"/>
+          <as:constraint action="makeOptional(//star:UnavailablePeriod/star:InclusiveIndicator"/>
+          <as:constraint action="makeOptional(//star:UnavailablePeriod/star:StartDateTime"/>
+          <as:constraint action="makeOptional(//star:UnavailablePeriod/star:EndDateTime"/>
+          <as:constraint action="makeOptional(//star:UnavailablePeriod/star:CompleteDateTime"/>
+          <as:constraint action="makeOptional(//star:UnavailablePeriod/star:OpenIndicator"/>
+          <as:constraint action="makeOptional(//star:UnavailablePeriod/star:DayOfWeekCode"/>
+          <as:constraint action="makeOptional(//star:AvailablePeriod/star:DurationMeasure"/>
+          <as:constraint action="makeOptional(//star:AvailablePeriod/star:InclusiveIndicator"/>
+          <as:constraint action="makeOptional(//star:AvailablePeriod/star:StartDateTime"/>
+          <as:constraint action="makeOptional(//star:AvailablePeriod/star:EndDateTime"/>
+          <as:constraint action="makeOptional(//star:AvailablePeriod/star:CompleteDateTime"/>
+          <as:constraint action="makeOptional(//star:AvailablePeriod/star:OpenIndicator"/>
+          <as:constraint action="makeOptional(//star:AvailablePeriod/star:DayOfWeekCode"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:URIID"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:ChannelCode"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:LocalNumber"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:CompleteNumber"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:CountryNumberCode"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:ExtensionNumber"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:AreaNumberCode"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:Access"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:UseCode"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:ServiceProviderName"/>
+          <as:constraint action="makeOptional(//star:FaxCommunication/star:HTMLPreferredIndicator"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:URIID"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:ChannelCode"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:LocalNumber"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:CompleteNumber"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:CountryNumberCode"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:ExtensionNumber"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:AreaNumberCode"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:Access"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:UseCode"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:ServiceProviderName"/>
+          <as:constraint action="makeOptional(//star:URICommunication/star:HTMLPreferredIndicator"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:NationalityCountryID"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:ContactMethodTypeCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:LanguageCode"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:AddressID"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:AddressType"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:AttentionOf"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:CareOf"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:LineOne"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:LineTwo"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:LineThree"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:LineFour"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:LineFive"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:CitySub-DivisionName"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:CityName"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:CountryID"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:Postcode"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:StateOrProvinceCountrySub-DivisionID"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:CountyCountrySub-Division"/>
+          <as:constraint action="makeOptional(//star:PostalAddress/star:AddressUpdateDateTime"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:OriginalContactMethodTypeCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOccupation/star:TypeCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOccupation/star:Title"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOccupation/star:Description"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOccupation/star:ClassCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOccupation/star:RankingCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOccupation/star:FullTimeIndicator"/>
+          <as:constraint action="makeOptional(//star:PeriodHeld/star:DurationMeasure"/>
+          <as:constraint action="makeOptional(//star:PeriodHeld/star:InclusiveIndicator"/>
+          <as:constraint action="makeOptional(//star:PeriodHeld/star:StartDateTime"/>
+          <as:constraint action="makeOptional(//star:PeriodHeld/star:EndDateTime"/>
+          <as:constraint action="makeOptional(//star:PeriodHeld/star:CompleteDateTime"/>
+          <as:constraint action="makeOptional(//star:PeriodHeld/star:OpenIndicator"/>
+          <as:constraint action="makeOptional(//star:PeriodHeld/star:DayOfWeekCode"/>
+          <as:constraint action="makeOptional(//star:Trait/star:TraitText"/>
+          <as:constraint action="makeOptional(//star:Trait/star:TraitGroupCode"/>
+          <as:constraint action="makeOptional(//star:Trait/star:TraitTypeCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:CustomerStatusCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedPerson/star:DateOfBirthToleranceNumeric"/>
+          <as:constraint action="makeOptional(//star:PrimaryContact/star:ContactMethodTypeCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:DoingBusinessAsName"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:LegalClassificationCode"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:InceptionDateTime"/>
+          <as:constraint action="makeOptional(//star:SpecifiedOrganization/star:NumberOfEmployeesNumeric"/>
+          <as:constraint action="makeOptional(//star:DealerParty/star:PreferredLanguageCode"/>
+          <as:constraint action="makeOptional(//star:DealerParty/star:ManufacturerCustomerID"/>
+          <as:constraint action="makeOptional(//star:DealerParty/star:ManufacturerHouseholdID"/>
+          <as:constraint action="makeOptional(//star:PartyActionEvent/star:EventID"/>
+          <as:constraint action="makeOptional(//star:PartyActionEvent/star:EventTypeCode"/>
+          <as:constraint action="makeOptional(//star:PartyActionEvent/star:EventDescription"/>
+          <as:constraint action="makeOptional(//star:PartyActionEvent/star:EventOccurrenceDateTime"/>
+          <as:constraint action="makeOptional(//star:DealerParty/star:DealerIndicator"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:OrderQuantityReceived"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:LastReceiptDate"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:DateOfLastOrder"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:LastPhysicalInventoryDate"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:LastReceiptQuantity"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:PartCostAmount"/>
+          <as:constraint action="makeOptional(//star:PartsInventoryLine/star:MinimumOrderQuantity"/>
+
+          <!-- Logic Worksheet constraints  -->
+          <!-- ApplicationArea -->
+          <as:constraint condition="not(./@releaseID[matches(.,'^5.8.1$')])"
+            action="printMessage(/star:ProcessPartsInventory,The releaseID attribute on the ProcessPartsInventory element must have the value '5.8.1'.)"/>
+          <as:constraint condition="not(./@languageCode) or not(./@languageCode[matches(.,'^en-US$')])"
+            action="printMessage(/star:ProcessPartsInventory,The languageCode attribute is required on the ProcessPartsInventory element and must have the value 'en-US'.)"/>
+          <as:constraint condition="not(./star:TaskID) or not(./star:TaskID[matches(.,'^PartsInventory$')])"
+            action="printMessage(//star:ApplicationArea/star:Sender,The TaskID element is required in the Sender component and must have the value 'PartsInventory'.)"/>
+          <as:constraint condition="string-length(./star:CreatorNameCode) &gt; 40"
+            action="printMessage(//star:ApplicationArea/star:Sender,The CreatorNameCode element must contain an alpha numeric specical value no more than 40 characters in length.)"/>
+          <as:constraint condition="not(./star:SenderNameCode[matches(.,'^[0-9A-Z]{2}$')])"
+            action="printMessage(//star:ApplicationArea/star:Sender,The SenderNameCode element must contain a valid STAR Short Manufacturer Code.)"/>
+          <as:constraint condition="//star:ApplicationArea/star:Destination/star:DestinationNameCode[matches(.,'^BD$')] and (not(./star:DealerNumberID) or not(./star:DealerNumberID[matches(.,'^[-A-Za-z0-9]{36}$')]))"
+            action="printMessage(//star:ApplicationArea/star:Sender,The DealerNumberID element is required and for BRP must contain a 36 character GUID.)"/>
+          <as:constraint condition="//star:ApplicationArea/star:Destination/star:DestinationNameCode[matches(.,'^KA$')] and (not(./star:DealerNumberID) or not(./star:DealerNumberID[matches(.,'^[A-Za-z0-9]{4,5}$')]))"
+            action="printMessage(//star:ApplicationArea/star:Sender,The DealerNumberID element is required and for Kawasaki must contain a 4 to 5 character alpha numeric value.)"/>
+          <as:constraint condition="//star:ApplicationArea/star:Destination/star:DestinationNameCode[matches(.,'^PL$')] and (not(./star:DealerNumberID) or not(./star:DealerNumberID[matches(.,'^[0-9]{7}$')]))"
+            action="printMessage(//star:ApplicationArea/star:Sender,The DealerNumberID element is required and for Polaris must contain a 7 character numeric value.)"/>
+          <as:constraint condition="not(./star:ServiceID) or not(./star:ServiceID[matches(.,'^ProcessPartsInventory$')])"
+            action="printMessage(//star:ApplicationArea/star:Sender,The ServiceID element is required in the Sender component and must have the value 'ProcessPartsInventory'.)"/>
+          <as:constraint condition="not(./star:CreationDateTime[matches(.,'^20\d\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d-[0-2]\d:[0-5]\d$')])"
+            action="printMessage(//star:ApplicationArea,The CreationDateTime element must contain a value in the format CCYY-MM-DDTHH:MM:SS-HH:MM.)"/>
+          <as:constraint condition="not(./star:BODID) or not(./star:BODID[matches(.,'^[-:A-Za-z0-9]{36,45}$')])"
+            action="printMessage(//star:ApplicationArea,The BODID element is required in the Sender component and must contain a GUID.)"/>
+          <as:constraint condition="not(./star:DestinationNameCode) or not((./star:DestinationNameCode[matches(.,'^BD$')]) or (./star:DestinationNameCode[matches(.,'^KA$')]) or (./star:DestinationNameCode[matches(.,'^PL$')]))"
+            action="printMessage(//star:ApplicationArea/star:Destination,The DestinationNameCode element is required in the Destination component and must have the value 'BD' for BRP or 'KA' for Kawasaki or 'PL' for Polaris.)"/>
+          
+          <!-- DataArea -->
+          <as:constraint condition="count(./star:PartsInventory) &gt; 1"
+            action="printMessage(//star:ProcessPartsInventoryDataArea,Only 1 PartsInventory component is allowed.)"/>
+          <as:constraint condition="not(./star:DocumentDateTime) or not(./star:DocumentDateTime[matches(.,'^20\d\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d-[0-2]\d:[0-5]\d$')])"
+            action="printMessage(//star:PartsInventoryHeader,The DocumentDateTime element is required in the PartsInventoryHeader component and must contain a value in the format CCYY-MM-DDTHH:MM:SS-HH:MM.)"/>
+          <as:constraint condition="not(./star:DocumentID = //star:ApplicationArea/star:BODID)"
+            action="printMessage(//star:DocumentIdentificationGroup/star:DocumentIdentification,The DocumentID in the DocumentIdentification component must match the BODID element in the Sender component.)"/>
+          <as:constraint condition="not(./star:AgencyRoleCode) or not(./star:AgencyRoleCode[matches(.,'^Dealer$')])"
+            action="printMessage(//star:DocumentIdentificationGroup/star:DocumentIdentification,The AgencyRoleCode element is required in the DocumentIdentification component and must have the value 'Dealer'.)"/>
+          <as:constraint condition="not(./star:InventoryTypeCode) or not(./star:InventoryTypeCode[matches(.,'^Full$')])"
+            action="printMessage(//star:PartsInventoryHeader,The InventoryTypeCode element is required in the PartsInventoryHeader component and must have the value 'Full'.)"/>
+          <as:constraint condition="not(./star:PartsInventoryLine) or not(./star:PartsInventoryLine/*)"
+            action="printMessage(//star:PartsInventory,At least one PartsInventoryLine component must be present and it must be populated.)"/>
+          <as:constraint condition="not(./star:QuantityOnHand) or string-length(./star:QuantityOnHand) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityOnHand element is required in the PartsInventoryLine component and must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="not(./star:UnitPriceAmount) or string-length(./star:UnitPriceAmount) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The UnitPriceAmount element is required in the PartsInventoryLine component and must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="not(./star:PartsProductItem) or not(./star:PartsProductItem/*)"
+            action="printMessage(//star:PartsInventoryLine,The PartsProductItem component is required in the PartsInventoryLine component and must be populated.)"/>
+          <as:constraint condition="//star:ApplicationArea/star:Destination/star:DestinationNameCode[matches(.,'^BD$')] and (not((./@currencyID[matches(.,'^USD$')]) or (./@currencyID[matches(.,'^CAD$')])))"
+            action="printMessage(//star:UnitPriceAmount,The currencyID attribute on the UnitPriceAmount element must be 'USD' or 'CAD' for BRP.)"/>
+          <as:constraint condition="//star:ApplicationArea/star:Destination/star:DestinationNameCode[matches(.,'^KA$')] and (not(./@currencyID[matches(.,'^USD$')]))"
+            action="printMessage(//star:UnitPriceAmount,The currencyID attribute on the UnitPriceAmount element must be 'USD' for Kawasaki.)"/>
+          <as:constraint condition="//star:ApplicationArea/star:Destination/star:DestinationNameCode[matches(.,'^PL$')] and (not(./@currencyID[matches(.,'^USD$')]))"
+            action="printMessage(//star:UnitPriceAmount,The currencyID attribute on the UnitPriceAmount element must be 'USD' for Polaris.)"/>
+          <as:constraint condition="string-length(./star:QuantitySold) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantitySold element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityOfLostSale) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityOfLostSale element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityOnOrder) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityOnOrder element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityReOrderPoint) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityReOrderPoint element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityTwelveMonthSales) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityTwelveMonthSales element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityTwelveMonthLostSales) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityTwelveMonthLostSales element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:BackOrderQuantity) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The BackOrderQuantity element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityOfReturn) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityOfReturn element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityDealerPartStocking) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityDealerPartStocking element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityAvailable) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityAvailable element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityUserMin) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityUserMin element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityUserMax) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityUserMax element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="string-length(./star:QuantityBestStockingLevel) &gt; 8"
+            action="printMessage(//star:PartsInventoryLine,The QuantityBestStockingLevel element value must be no longer than 8 characters in length.)"/>
+          <as:constraint condition="count(./star:ItemIdentification) &gt; 1"
+            action="printMessage(//star:ItemIdentificationGroup,Only 1 ItemIdentification component is allowed per ItemIdentificationGroup component.)"/>
+          <as:constraint condition="not(./star:ItemIdentificationGroup) or not(./star:UOMCode)"
+            action="printMessage(//star:PartsProductItem,The ItemIdentificationGroup and UOMCode elements are required in the PartsProductItem component.)"/>
+          <as:constraint condition="//star:ApplicationArea/star:Destination/star:DestinationNameCode[matches(.,'^BD$')] and (string-length(./star:ItemID) &gt; 18)"
+            action="printMessage(//star:ItemIdentification,The ItemID for BRP must be an alpha numeric special value no more than 18 characters in length .)"/>
+          <as:constraint condition="//star:ApplicationArea/star:Destination/star:DestinationNameCode[matches(.,'^KA$')] and (string-length(./star:ItemID) &gt; 20)"
+            action="printMessage(//star:ItemIdentification,The ItemID for Kawasaki must be an alpha numeric special value no more than 20 characters in length .)"/>
+          <as:constraint condition="//star:ApplicationArea/star:Destination/star:DestinationNameCode[matches(.,'^PL$')] and (string-length(./star:ItemID) &gt; 20)"
+            action="printMessage(//star:ItemIdentification,The ItemID for Polaris must be an alpha numeric special value no more than 20 characters in length .)"/>
+          
+        </as:context>
+      </as:default>
+    </as:Rules>
+  </as:BusinessUseContext>
+</as:CAM>
